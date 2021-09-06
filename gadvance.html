@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title>Google Advanced Search</title>
+		<link rel="stylesheet" href="heading.css">
+		
+		<form id="backtoindex" action="index.html">
+			<button> Back to Google Search</button>
+		</form>		
+		<p id="googleadv">
+				<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+		</p>
+	</head>
+	
+	<body>
+		<!-- Top picture -->
+		<p style="margin-top:-130px; margin-left:40px; color:#df5517;font-size:23px ">Advanced Search</p>
+		
+		<!-- Horizontal line -->
+		<hr style="margin-bottom:30px" >
+		
+		<!-- search form -->
+ 					
+		<p class="advanced_heading">
+		<label >Find pages with...</label>
+		<label style="margin-left:550px">To do this in the search box.</label>
+		</p>
+
+		<form action="https://www.google.com/search" method="get">
+			<p>
+			<div class="row">
+				
+				<div class="column1">
+					<p><label>all these words:</label></p>
+					<p><label>this exact word or phrase:</label></p>
+					<p><label>any of these words:</label></p>
+					<p><label>none of these words:</label></p>				
+				</div>
+			  
+				<div class="column2" >
+					<p><input type="text" size="80px" name="as_q"></p>
+					<p><input type="text" size="80px" name="as_epq"></p>
+					<p><input type="text" size="80px" name="as_oq"></p>
+					<p><input type="text" size="80px" name="as_eq"></p>   
+				</div>
+			  
+				<div class="column3">
+					<p>Type the important words: <span class="monospace">tri-colour rat terrier</span></p>
+					<p>Put exact words in quotes: <span class="monospace">"rat terrier"</span></p>
+					<p>Type OR between all the words you want: <span class="monospace"> miniature OR standard</span></p>
+					<p>Put a minus sign just before words that you don't want: <span class="monospace"> -rodent, -"Jack Russell"</span></p>
+				</div>
+			</div>
+			</p>
+			<p>
+                <input type="submit" class="blue-button" style="background-color: #4d90fe; color:white" value="Google Advanced Search">
+            </p>   
+		
+		</form>
+			
+	</body>
+	
+</html>	
